@@ -293,7 +293,9 @@ func (s *Scaffold) SavePNG(path string) error {
 			dc.DrawLine(x, y+f(4), x+w, y+f(4))
 			dc.SetLineWidth(f(1))
 			dc.Stroke()
-		}
+		} 
+
+
 
 		x += w
 	}
